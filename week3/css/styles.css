@@ -1,0 +1,71 @@
+* {
+	font-family: 'Droid Sans', sans-serif;
+}
+
+body {
+	background-color:#f2f2f2;
+}
+h1 {
+	color: #FF5252;
+	font-size: 2em;
+	text-shadow: 1px 1px 1px #222;
+}
+h2 {
+	font-size: 1.5em;
+	padding-top: 15px;
+	color: #FF5252;
+}
+
+a {
+	color: #FF5252;
+}
+
+a:visited {
+	color: #FF5252;	
+}
+
+a:hover {
+	color: #FF5252;
+}
+
+
+
+.navbar-default {
+	background-color: #FF5252;
+}
+
+.navbar-default li{
+	color: white;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+	font-family: 'Pacifico', cursive;
+  	color: white;
+  	font-weight: bold;
+  	font-size: 1.5em;
+  	text-shadow: 1px 1px 1px #222;
+  	margin-top: 0;
+  	margin-bottom: 0;
+  	line-height: .75;
+}
+@media (max-width: 480px) {
+    .navbar-brand {
+	font-size: 4.8vw;
+    }
+}
+
+.tile {
+	background-color: white;
+	padding: 0px 15px 15px 15px;
+	-moz-box-shadow: 0 0 3px #999;
+    -webkit-box-shadow: 0 0 3px #999;
+    box-shadow: 0 0 3px #999;
+}
+
+/*
+header an rozowo.
+zmienic button na taki sam kolor jak navbar
+linki na bialo
+dropdown na jasniejszy rozowy
+
+*/
