@@ -34,9 +34,22 @@ a:hover {
 	background-color: #FF5252;
 }
 
-.navbar-default li{
-	color: white;
+
+#nav-list {
+  margin-top: 10px;
 }
+
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #ffd5d5;
+  color: #FF5252;
+
+}
+
 
 .navbar-brand h1 { /* Restaurant name */
 	font-family: 'Pacifico', cursive;
